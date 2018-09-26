@@ -1,0 +1,78 @@
+{% load staticfiles %}
+<html>
+  <head>
+    <title>Ogas Home</title>
+    
+    
+  </head>
+  <body>
+    {% block content%}
+{% endblock %}
+
+<header class="clearfix">
+ 
+  <section class="navbar">
+    <ul class="nav navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">ORDER</a></li>
+      <li><a href="#">SUPPLY</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">SUPPLY <span class="caret"></span></a>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+          <li><a tabindex="-1" href="#">All COMMODITIES</a></li>
+          <li><a tabindex="-1" href="#">CYLINDERS</a></li>
+          <li><a tabindex="-1" href="#">BURNERS</li>
+          <li><a tabindex="-1" href="#">GRILLS</a></li>
+          <li><a tabindex="-1" href="#">COOMPLETE GAS</a></li>
+        </ul><!-- dropdown menu -->
+      </li>
+      <li><a href="#">HELP</a></li>
+    </ul><!-- nav -->
+  </section><!-- navbar -->
+ <section id="branding">
+    <a href="#"><img src="media/logo.jpg" alt="SAFE ENERGY " widht="500px" length="750px"></a>
+     <a href="#"><img src="media/lpg.jpg" alt="What's Up" widht="500px" length="750px"></a>
+  </section><!-- branding -->
+
+<div id="myCarousel" class="carousel hidden-sm slide">
+
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol><!-- carousel-indicators -->
+
+  <section class="carousel-inner">
+    <div class="active item"><img src="media/index.png" alt="Vivo Eergy"></div>
+    <div class="item"><img src="media/images5.jpg" alt="Mo-Gas"></div>
+  </section><!-- carousel-inner -->
+
+  <a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div><!-- myCarousel -->
+
+
+  <!-- Modal -->
+  <section id="modal" class="modal fade">
+    <div class="modal-body">
+      <img id="modalimage" src="" alt="Modal Photo">
+    </div><!-- modal-body -->
+  </section><!-- modal -->
+</header><!-- header -->
+
+
+
+<section class="container">
+  <footer class="row">
+    <nav class="col-lg-12">
+      <ul class="breadcrumb">
+        <li><a href="#">About Ogas</a></li>
+        <li><a  href=" privacy"> Privacy Policy</a></li>
+        <li><a href="https://www.energyonline.co.nz/lpg-terms">ERC</a></li>
+      </ul><!-- breadcrumb -->
+    </nav><!-- nav -->
+  </footer><!-- footer -->
+</section><!-- container -->
+
+
+</body>
+</html>

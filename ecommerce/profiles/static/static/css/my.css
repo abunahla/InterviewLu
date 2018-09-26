@@ -1,0 +1,14 @@
+.jumbotron{
+	background-color:white; 
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	margin: bottom;
+
+}
+.glyphicon.soc {
+	float: center;
+	padding: 20px 20px 20px 20px;
+	size:20px;
+}

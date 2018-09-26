@@ -1,0 +1,599 @@
+body{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#fleetGallery
+{
+ background: url(../img/fleetBg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	width:100%;
+	height:100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+}
+
+.fleetSelect{
+
+	height: 60%;
+	background: #2abcd2;
+}
+
+.cont, .rowt
+{
+	height:100%
+	;
+}
+
+.mainLogo {
+    max-width: 15%;
+    margin-left: 5%;
+    margin-top: 4%;
+    z-index: 10001;
+}
+
+body
+{
+}
+body
+{
+}
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+
+
+/* Fix */
+.panel-heading, panel-body {
+    float: left;
+}
+.nav-tabs > li {
+    float: none;   
+}
+.fleetSlider
+{
+
+	margin-top:100px;
+	height:60%;
+}
+
+.fleetMenu li
+{
+	width: 95%;
+	height: 80px;
+	display: block;
+	margin-bottom: 5%;
+	margin-right: 1%;
+	background-color:rgba(0,0,0,0.7);
+	padding-top:5px;
+	text-align: center;
+}
+
+.fleetMenu li:hover{
+	background-color:rgba(2,26,51,0.96);
+	border-top: 1px solid;
+	border-color:#2abcd2;
+
+
+}
+
+.fleetTabs{
+
+	position:fixed;
+	top:25%;
+	height:90%;
+	margin-left: 2%;
+}
+
+.panel-body
+{
+	height:95%;
+	background: transparent;
+	width:100%;
+
+
+}
+
+.panel{
+	height:95%;
+	background: transparent;
+}
+
+.panelHeight{
+
+	height:50%;
+}
+
+.fleetImage 	
+{
+	height:250px;
+	margin-left: 75px;
+}
+
+.fleetPic
+{
+	width:95%;
+	margin-left: 6%;
+}
+
+.panel-default
+{
+	border:none;
+}
+
+.panel-heading{
+	width:100%;
+}
+
+.fleetInfoPanel
+{
+
+	position:absolute;
+	bottom:10%;
+}
+
+.aircraftName
+{
+	margin-top: 75px;
+	font-family: ralehev;
+	font-size: 1.7em;
+	color: #fff;
+}
+
+.aircraftDescription
+{
+	width:95%;
+	margin-top: 10px;
+	font-family: rale;
+	font-size: 1em;
+	color: #fff;
+}
+
+.aircraftInfo
+{
+	width:45%;
+	float:left;
+}
+
+.aircraftSpecs
+{
+	
+	margin-top:75px;
+	width:45%;
+	float:left;
+}
+
+td {
+	font-family: rale;
+	color:#fff;
+}
+
+tr{
+
+}
+
+.spacer
+{
+	height:5px;
+	background: transparent;
+}
+
+.aircraftSpecData
+{
+	width: 200px;
+}
+
+table { 
+    border-spacing: 15px;
+    border-collapse: separate;
+}
+
+.airProfiles
+{
+
+	float: left;
+	margin-top: 95px;
+}
+
+.airProfiles li{
+
+	margin-bottom: 30px;
+}
+
+.nav-tabs>li
+{
+	margin-bottom: 25px;
+}
+.fleetLeftSelector
+{
+
+	width:100%;
+	background: rgba(1,3,10,0.55);
+	height:100px;
+
+}
+
+.fleetLeftSelector img
+{
+	width:85%;
+
+}
+
+.fleetLeftSelector:active
+{
+
+	border-top: 2px solid #2abcd2;
+
+}
+.fleetLeftSelector:hover {
+	width:100%;
+	border-top: 2px solid #2abcd2;
+
+}
+
+.nav>li>a:hover {
+	border-top: 2px solid #2abcd2;
+	background-color: transparent;
+	}
+
+
+.nav-tabs>li.active>a
+{
+	border-top: 2px solid #2abcd2;
+}
+
+.nav-tabs>li.hover
+{
+	background-color: rgba(3,16,60,0.55);
+	border-top: 2px solid #2abcd2;
+}
+.nav-tabs {
+     border-bottom: none;
+}
+
+.fleetSelectors{
+
+	margin-top: 5%;
+	padding:5px;
+}
+
+.fleetDisplay
+{
+	height:45%;
+}
+
+.nav>li>a:focus{
+
+	background-color: transparent;
+	border-top: 2px solid #2abcd2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contactTopPanel{
+
+background: url(../img/Wilson.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;	width:100%;
+	height:50%;
+	position: relative;
+
+}
+
+.vid-overlay {
+    background:rgba(35, 51, 65, 1.0) url(../img/dots.png);
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    z-index: 8000;
+    top: 0;
+    opacity: .2;
+    margin-top:32px;
+}
+
+
+#map-container { height: 50% }
+
+#contactInfoPanel
+{
+ position: absolute;
+  top: 65%; left: 50%;
+  transform: translate(-50%,-50%);
+	width: 90%;
+	height: 60%;
+margin-left: auto;
+margin-right: auto;
+	background-color: rgba(7,23,40,0.6);
+	min-height: 200px;
+	z-index: 10000;
+
+}
+
+
+#contactInfoPanel2
+{
+ 
+	position: absolute;
+  top: 65%; left: 50%;
+  transform: translate(-50%,-50%);
+	width: 90%;
+	height: 60%;
+margin-left: auto;
+margin-right: auto;
+	background-color: rgba(7,23,40,0.6);
+	min-height: 200px;
+	visibility: hidden;
+		z-index: 10000;
+
+
+}
+#contactInfoPanel3
+{
+ 
+	position: absolute;
+  top: 65%; left: 50%;
+  transform: translate(-50%,-50%);
+	width: 90%;
+	height: 60%;
+margin-left: auto;
+margin-right: auto;
+	background-color: rgba(7,23,40,0.6);
+	min-height: 200px;		visibility: hidden;
+	z-index: 10000;
+
+
+}
+
+#contactInfoPanel4
+{	
+	position: absolute;
+  top: 65%; left: 50%;
+  transform: translate(-50%,-50%);
+	width: 90%;
+	height: 60%;
+margin-left: auto;
+margin-right: auto;
+ 
+	background-color: rgba(7,23,40,0.6);
+	min-height: 200px;
+		visibility: hidden;
+			z-index: 10000;
+
+
+
+}
+
+#infoPanelAddress{
+
+	position: absolute;
+	left:10%;
+	top:15%;
+	z-index: 9999999;
+
+}
+
+
+.officeTitle
+{
+	font-family: ralesemibold;
+	font-size: 2.2em;
+	color:#fff;
+
+}
+
+.officeDetails
+{
+	font-size: 1.2em;
+	font-family: rale;
+	color: #fff;
+}
+
+.contactIcons
+{
+	height:40px;
+}
+
+.contactIcons img
+{
+	max-height:90%;
+}
+
+#infoPanelContacts{
+
+	position: absolute;
+	left:30%;
+	top:15%;
+	z-index: 9999999;
+	font-size: 1.4em;
+	height: 90%;
+
+}
+
+#contactButton{
+
+	position: absolute;
+	left:60%;
+	top:45%;
+	z-index: 9999999;
+	font-size: 1.2em;
+
+}
+
+#infoPanelSocial{
+
+	position: absolute;
+	left:75%;
+	top:20%;
+	z-index: 9999999;
+	height: 200px;
+
+}
+
+
+#infoPanelSocial img{
+	height:80%;
+}
+table, td, border-top-right-radius: {
+
+background: none;
+}
+
+#mapButtons{
+
+	position: fixed;
+	left:5%;
+	bottom:5%;
+	z-index: 9999;
+	font-size: 1.4em;
+	width:250px;
+}
+
+
+#locationButtons
+{
+	width: 95%;
+
+}
+
+#locationButtons li
+{
+	display: block;
+	background-color: #2abcd2;
+	width: 90%;
+	margin-bottom: 25px;
+	color: #fff;
+	font-family: rale;
+	text-align: center;
+
+}
+
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+
+
+#popouttwo
+		
+		{
+			height:650px;
+			width: 460px;
+			background-color:#000;
+			position:fixed;
+			right:167px;
+			z-index: 12000;
+			top:20%;
+
+		}
+
+.contactText
+{
+	
+	color:#fff;
+	width: 85%;
+	font-family: raleway;
+	font-weight:300;
+}
+
+
+.contactTextt
+{
+	
+	color:#fff;
+	
+	background-color:rgba(0,0,0,0.77);
+	display: inline-block;
+	width: 100%;
+	font-family: raleway;
+	font-weight:500;
+}
+.contactHeading
+{
+	width:100%;
+	margin:auto;
+	
+	padding-left: 32px;}
+	
+
+	.form-control {
+    display: block;
+    width: 85%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    font-variant: small-caps;
+    background-color: #000;
+    background-image: none;
+    border: 2px solid #ccc;
+    margin: auto;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.panelHeading {
+    font-family: ralehev;
+    text-align: left;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+
+.mainLogo{
+margin-top:4%;
+}
+
+
+#contactButton2 {
+
+    position: fixed;
+    top: 7%;
+    right: 5%;
+    z-index: 10000;
+
+}
+
+#contactInfoPanel {
+top:59%;
+}
+
+#popouttwo {
+
+
+right:0;
+width:100%;
+top:10%;
+}
+}
+
+@media (max-width: 900px) {
+.mainLogo
+{
+margin-top:10%;
+}
+}
